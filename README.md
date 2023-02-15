@@ -38,8 +38,6 @@
 
 The layout was done using css flexbox and css grid, button interactions implemented.
 
-**[your_project__name]** is a...
-
 ## 🛠 Built With <a name="built-with">
 -HTML
 -CSS</a>
@@ -97,7 +95,7 @@ In order to run this project you need:
 Clone this repository to your desired folder:
 
 cd my-folder
-  git clone https://github.com/Ferizad/Mobile-portfolio.git
+  git clone https://github.com/Ferizad/Portfolio.git
 
 
 ### Install
@@ -148,8 +146,6 @@ Example:
 <!-- AUTHORS -->
 
 ## 👥 Authors <a name="authors"></a>
-
-> Mention all of the collaborators of this project.
 
 👤 **Ferizad**
 
