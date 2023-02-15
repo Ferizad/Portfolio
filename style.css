@@ -1,9 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
 
+* {
+  padding: 0;
+  margin: 0;
+}
+
 header {
   display: flex;
   justify-content: space-between;
   width: 100%;
+  padding-bottom: 20px;
 }
 
 .logo {
@@ -17,7 +23,6 @@ header {
 .hamburger {
   margin-top: 20px;
   margin-right: 10px;
-  font-size: px;
 }
 
 .background {
@@ -37,7 +42,7 @@ header {
   margin: auto;
   font-family: 'Inter', sans-serif;
   position: relative;
-  bottom: 600px;
+  bottom: 580px;
 }
 
 .socialmedia ul {
@@ -48,7 +53,7 @@ header {
   padding-top: 15px;
   margin-bottom: 50px;
   position: relative;
-  bottom: 570px;
+  bottom: 500px;
 }
 
 .socialmedia ul li {
@@ -80,4 +85,18 @@ header {
   text-align: center;
   color: #172b4d;
   margin: 10;
+  padding-top: 30px;
+}
+
+.arrow {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  bottom: 500px;
+}
+
+@media screen and (min-width: 768px) {
+  header {
+    display: none;
+  }
 }
