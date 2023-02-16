@@ -13,6 +13,8 @@ header {
 }
 
 .logo {
+  margin-top: 20px;
+  text-decoration: none;
   padding: 10px 12px;
   font-family: 'Inter', sans-serif;
   font-weight: 600;
@@ -21,17 +23,15 @@ header {
 }
 
 .hamburger {
-  margin-top: 20px;
+  margin-top: 10px;
   margin-right: 10px;
+  width: 20px;
+  height: 20px;
 }
 
-.background {
-  width: 100%;
-  height: auto;
-  background-repeat: no-repeat;
+section {
+  background-image: url(/media/header-illsutration-mobile@2x.png);
   background-size: cover;
-  display: flex;
-  justify-content: center;
 }
 
 .intro {
@@ -42,7 +42,6 @@ header {
   margin: auto;
   font-family: 'Inter', sans-serif;
   position: relative;
-  bottom: 580px;
 }
 
 .socialmedia ul {
@@ -52,8 +51,6 @@ header {
   list-style: none;
   padding-top: 15px;
   margin-bottom: 50px;
-  position: relative;
-  bottom: 500px;
 }
 
 .socialmedia ul li {
@@ -67,6 +64,7 @@ header {
   text-align: center;
   color: #172b4d;
   margin: 0;
+  padding-top: 50px;
 }
 
 .intro h2 {
@@ -84,7 +82,6 @@ header {
   font-size: 20px;
   text-align: center;
   color: #172b4d;
-  margin: 10;
   padding-top: 30px;
 }
 
@@ -92,7 +89,7 @@ header {
   display: flex;
   justify-content: center;
   position: relative;
-  bottom: 500px;
+  padding-top: 20px;
 }
 
 @media screen and (min-width: 768px) {
