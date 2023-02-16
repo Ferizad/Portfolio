@@ -107,37 +107,28 @@ Install this project with:
 
 To run the project, execute the following command:
 
-<!--
-Example command:
-
-```sh
-  rails server
-```
---->
-
 ### Run tests
+To track linter errors locally follow these steps:  
 
-To run tests, run the following command:
-
-<!--
-Example command:
-
-```sh
-  bin/rails test test/models/article_test.rb
+Download all the dependencies run:
 ```
---->
-
+npm install
+```
+Track HTML linter errors run:
+```
+npx hint .
+```
+Track CSS linter errors run:
+```
+npx stylelint "**/*.{css,scss}"
+```
+Track JavaScript linter errors run:
+```
+npx eslint .
+```
 ### Deployment
-
 You can deploy this project using:
-
-<!--
-Example:
-
-```sh
-
-```
- -->
+GitHub pages
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
