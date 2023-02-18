@@ -36,8 +36,6 @@
 
 > Portfolio website is one of the most powerful tools in software developer toolbox.
 
-The layout was done using css flexbox and css grid.
-
 ## 🛠 Built With <a name="built-with">
 -HTML
 -CSS</a>
