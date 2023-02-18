@@ -148,6 +148,7 @@ header {
   display: grid;
   justify-content: center;
   padding: 10px 10px 10px 10px;
+  gap: 0.5rem;
   grid-template-columns: 330px;
 }
 
