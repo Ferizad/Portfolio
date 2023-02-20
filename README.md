@@ -36,8 +36,6 @@
 
 > Portfolio website is one of the most powerful tools in software developer toolbox.
 
-The layout was done using css flexbox and css grid, button interactions implemented.
-
 ## 🛠 Built With <a name="built-with">
 -HTML
 -CSS</a>
@@ -154,7 +152,6 @@ GitHub pages
 
 > Describe 1 - 3 features you will add to the project.
 
-- [ ] **[Finish the mobile version]**
 - [ ] **[Make some changes]**
 - [ ] **[link the social icons]**
 - [ ] **[Finish the desktop version]**
