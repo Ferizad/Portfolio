@@ -17,7 +17,6 @@ header {
   margin-top: 20px;
   text-decoration: none;
   padding: 10px 12px;
-  font-family: 'Inter', sans-serif;
   font-weight: 600;
   font-size: 25px;
   color: #28352f;
@@ -39,7 +38,6 @@ header {
   align-items: center;
   width: 90%;
   margin: auto;
-  font-family: 'Inter', sans-serif;
   position: relative;
   padding-top: 15px;
 }
@@ -100,7 +98,6 @@ header {
 }
 
 .intro h1 {
-  font-family: 'Inter', sans-serif;
   font-weight: 700;
   font-size: 40px;
   text-align: center;
@@ -110,7 +107,6 @@ header {
 }
 
 .intro h2 {
-  font-family: 'Inter', sans-serif;
   font-weight: 700;
   font-size: 40px;
   text-align: center;
@@ -119,7 +115,6 @@ header {
 }
 
 .intro p {
-  font-family: 'Inter', sans-serif;
   font-weight: 400;
   line-height: 28px;
   text-align: center;
@@ -136,7 +131,6 @@ header {
 }
 
 .works {
-  font-family: 'Inter', sans-serif;
   font-weight: 700;
   font-size: 28px;
   text-align: center;
@@ -148,7 +142,7 @@ header {
 .cards {
   display: grid;
   justify-content: center;
-  padding: 10px 10px 10px 10px;
+  padding: 10px;
   gap: 0.5rem;
   grid-template-columns: 330px;
 }
@@ -187,7 +181,7 @@ header {
   color: white;
   background-color: #36b37f;
   border: none;
-  padding: 10px 10px;
+  padding: 10px;
   border-radius: 5px;
 }
 
@@ -197,7 +191,6 @@ header {
 }
 
 .about h1 {
-  font-family: 'Inter', sans-serif;
   font-weight: 700;
   font-size: 28px;
   text-align: center;
@@ -215,7 +208,6 @@ header {
 }
 
 .wrap {
-  font-family: 'Inter', sans-serif;
   font-weight: 700;
   font-size: 30px;
   text-align: center;
@@ -223,7 +215,6 @@ header {
 }
 
 .description {
-  font-family: 'Inter', sans-serif;
   font-weight: 400;
   font-size: 20px;
   text-align: center;
@@ -259,7 +250,7 @@ header {
 .about-frame {
   display: grid;
   justify-content: center;
-  padding: 10px 10px 10px 10px;
+  padding: 10px;
   grid-template-columns: 330px;
 }
 
@@ -282,31 +273,30 @@ header {
   display: flex;
   justify-content: center;
   margin-left: 10%;
-  padding: 24px 80px 24px 80px;
+  padding: 24px 80px;
   width: 120px;
 }
 
 .contact-text {
-  font-family: 'Inter', sans-serif;
   font-weight: 700;
   font-size: 40px;
   text-align: center;
   color: #172b4d;
-  padding: 40px 20px 40px 20px;
+  padding: 40px 20px;
 }
 
 .get-btn {
+  display: flex;
   cursor: pointer;
   width: 159px;
   height: 48px;
   color: white;
   background-color: #36b37f;
   border: 5px solid #36b37f;
-  text-align: center;
   border-radius: 5px;
-  margin-left: 30%;
-  margin-top: 8%;
-  margin-bottom: 10%;
+  margin: 10% 25%;
+  padding-left: 15%;
+  padding-top: 10px;
 }
 
 .input1 {
@@ -319,6 +309,7 @@ header {
   outline: none;
   border-radius: 10px;
   border: 1px solid #60c095;
+  margin-top: 10px;
 }
 
 .input1::placeholder {
@@ -344,6 +335,7 @@ header {
   outline: none;
   border-radius: 10px;
   border: 1px solid #60c095;
+  margin-top: 10px;
 }
 
 .textarea1::placeholder {
@@ -386,28 +378,11 @@ label {
 }
 
 .mail {
-  font-family: 'Inter', sans-serif;
   font-weight: 400;
   font-size: 20px;
   text-align: center;
   color: #42526e;
   padding: 0 30px 40px 20px;
-}
-
-.contact-form {
-  padding: 1rem 2rem;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  position: relative;
-}
-
-.illustration3 {
-  position: absolute;
-  bottom: 0;
-  right: 0;
-  padding-bottom: 140px;
 }
 
 @media screen and (min-width: 768px) {
