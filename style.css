@@ -385,6 +385,15 @@ label {
   padding: 0 30px 40px 20px;
 }
 
+.contact-form {
+  padding: 1rem 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
 .illustration3 {
   position: absolute;
   bottom: 0;
