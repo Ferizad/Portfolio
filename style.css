@@ -406,7 +406,7 @@ label {
     display: none;
   }
 
-    section {
+  section {
     background-image: url(/media/background.png);
     background-size: cover;
   }
