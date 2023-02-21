@@ -299,6 +299,14 @@ header {
   padding-top: 10px;
 }
 
+.get-btn:active {
+   background-color: #008552;
+}
+
+.get-btn:active {
+   background-color: #008552;
+}
+
 .input1 {
   width: 100%;
   color: #172b4d;
