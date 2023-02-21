@@ -385,6 +385,13 @@ label {
   padding: 0 30px 40px 20px;
 }
 
+.illustration3 {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  padding-bottom: 140px;
+}
+
 @media screen and (min-width: 768px) {
   header {
     display: none;
