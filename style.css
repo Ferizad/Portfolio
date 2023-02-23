@@ -6,27 +6,36 @@
   font-family: 'Inter', sans-serif;
 }
 
-header {
-  display: flex;
-  justify-content: space-between;
-  width: 100%;
-  padding-bottom: 20px;
-}
-
 .logo {
-  margin-top: 20px;
+  margin-top: 15px;
   text-decoration: none;
-  padding: 10px 12px;
+  padding: 30px 20px;
   font-weight: 600;
-  font-size: 25px;
+  font-size: 20px;
   color: #28352f;
 }
 
 .hamburger {
-  margin-top: 10px;
-  margin-right: 10px;
-  width: 20px;
-  height: 20px;
+  height: 50px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: transparent;
+}
+
+.hamburger-img {
+  margin-right: 35px;
+  margin-top: 15px;
+}
+
+@media (max-width: 768px) {
+  .link-desktop,
+  .desk-illustr1,
+  .desk-illustr2,
+  .desk-illustr3 {
+    display: none;
+  }
 }
 
 .intro {
@@ -409,13 +418,157 @@ label {
   padding-bottom: 140px;
 }
 
+.socialmedia-desk ul {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  list-style: none;
+  margin-bottom: 10px;
+}
+
+.socialmedia-desk ul li {
+  text-decoration: none;
+}
+
 @media screen and (min-width: 768px) {
-  header {
+  .logo,
+  .hamburger-img,
+  .illustration,
+  .illustration2,
+  .illustration3,
+  .mail,
+  .socialmedia {
     display: none;
   }
 
-  section {
+  .hamburger {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+  }
+
+  .link-desktop {
+    display: flex;
+    list-style-type: none;
+  }
+
+  .links-style a {
+    padding: 10px 12px;
+    color: #344563;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 20px;
+    text-decoration: none;
+  }
+
+  .intro {
     background-image: url(/media/background.png);
-    background-size: cover;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    padding-bottom: 680px;
+    width: 920px;
+    height: 114px;
+  }
+
+  .intro-desktop {
+    padding-top: 200px;
+  }
+
+  .cards {
+    display: grid;
+    grid-template-columns: 327px 327px 327px;
+    grid-template-rows: 520px;
+    column-gap: 24px;
+    row-gap: 24px;
+    justify-content: center;
+    padding-bottom: 88px;
+  }
+
+  .about {
+    display: grid;
+    grid-template-columns: 327px 327px 327px;
+    grid-template-rows: 400px 100px;
+    column-gap: 24px;
+    justify-content: center;
+    padding-top: 62px;
+  }
+
+  .about1 {
+    background-image: url("./media/illustration-about-me-2-desktop.svg"), url("./media/illustration-about\ me-1-desktop@2x.png");
+    background-repeat: no-repeat;
+    background-position: bottom left, top -50px right;
+    background-size: 200px 200px;
+  }
+
+  .description {
+    width: 620px;
+    top: 72px;
+  }
+
+  .contact-text {
+    width: 463px;
+  }
+
+  form {
+    width: 530px;
+    height: 330px;
+  }
+
+  .get-btn {
+    margin-top: 10px;
+    margin-left: 0%;
+    padding-left: 5%;
+  }
+
+  .desktop-img {
+    display: flex;
+    width: 100%;
+    margin-left: 20%;
+  }
+
+  .desk-illustr1 {
+    position: absolute;
+    top: 60%;
+    bottom: 0;
+    left: 0;
+  }
+
+  .desk-illustr2 {
+    position: absolute;
+    top: 100%;
+    left: 250px;
+    width: 120px;
+  }
+
+  .desk-illustr3 {
+    position: absolute;
+    width: 180px;
+    top: 50%;
+    right: 0;
+  }
+
+  .socialmedia-desk {
+    border-top: 3px solid #dfe1e6;
+    margin-top: 250px;
+  }
+
+  .socialmedia-desk ul {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    list-style: none;
+    padding-top: 110px;
+    padding-top: 15px;
+    margin-bottom: 50px;
+  }
+
+  .socialmedia-desk ul li {
+    text-decoration: none;
+  }
+}
+
+@media (max-width: 768px) {
+  .links {
+    display: none;
   }
 }
