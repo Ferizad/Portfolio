@@ -33,7 +33,8 @@
   .link-desktop,
   .desk-illustr1,
   .desk-illustr2,
-  .desk-illustr3 {
+  .desk-illustr3,
+  .works-desk {
     display: none;
   }
 }
@@ -437,8 +438,17 @@ label {
   .illustration2,
   .illustration3,
   .mail,
-  .socialmedia {
+  .works {
     display: none;
+  }
+
+  .works-desk {
+    font-weight: 700;
+    font-size: 28px;
+    text-align: center;
+    color: #172b4d;
+    margin: 0;
+    padding-bottom: 40px;
   }
 
   .hamburger {
@@ -523,7 +533,7 @@ label {
   .desktop-img {
     display: flex;
     width: 100%;
-    margin-left: 20%;
+    margin-left: 23%;
   }
 
   .desk-illustr1 {
