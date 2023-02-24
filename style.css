@@ -114,9 +114,6 @@
   color: #172b4d;
   margin: 0;
   padding-top: 50px;
-}
-
-.intro h1 {
   animation-duration: 3s;
   animation-name: slidein;
 }
