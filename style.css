@@ -526,17 +526,17 @@ label {
     height: 330px;
   }
 
+  .desktop-img {
+    display: flex;
+  }
+
   .get-btn {
     margin-top: 10px;
     margin-left: 0%;
     padding-left: 5%;
   }
 
-  .desktop-img {
-    display: flex;
-    width: 100%;
-    margin-left: 41%;
-  }
+  
 
   .desk-illustr1 {
     position: absolute;
