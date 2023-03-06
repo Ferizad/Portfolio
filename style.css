@@ -30,7 +30,6 @@
 }
 
 @media (max-width: 768px) {
-  .link-desktop,
   .desk-illustr1,
   .desk-illustr2,
   .desk-illustr3,
@@ -99,7 +98,17 @@
   border: none;
 }
 
-.font1c {
+.hamburger-img {
+  padding: 0;
+  width: auto;
+  z-index: 100;
+  background: transparent;
+  cursor: pointer;
+  border: none;
+  margin-right: 10px;
+}
+
+.link-desktop {
   /* width: 251px;
   color: #3a4a42;
   font-size: 32px;

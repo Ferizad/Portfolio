@@ -27,8 +27,8 @@
 // worksSection.innerHTML = '';
 // worksSection.innerHTML = displayCard;
 
-const menu = document.querySelector('.modal_menu_container');
-const menuItems = document.querySelectorAll('.font1c');
+const menu = document.querySelector('.link-desktop');
+const menuItems = document.querySelectorAll('.links-style');
 const hamburger = document.querySelector('.hamburger-img');
 const closeIcon = document.querySelector('.close');
 const menuIcon = document.querySelector('.open');
