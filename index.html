@@ -20,7 +20,7 @@
                     <li class="links-style"><a href="#">About</a></li>
                     <li class="links-style"><a href="#">Contact</a></li>
                 </ul>
-                <img class="hamburger-img" src="media\Union.svg" alt="hamburger">
+                <button class="hamburger-img"><img  src="media\Union.svg" class="open" alt="hamburger"><img class="close" src="./media/closemenu.png" alt=""></button>
             </nav>
     </header>
 
@@ -50,6 +50,43 @@
         </div>
     </section>
 
+    <section class="hide1 modal_menu_container">
+
+        <article class="modal_menu_article">
+    
+            <nav>
+                <ul class="list_none textdecoration">
+                    <li class="modal_flex1 ">
+                        <button type="button" class="close_hamburger"><img src="./media/closemenu.png" alt=""></button>
+                    </li>
+    
+                    <li class="menu_option list_none">
+                        <a class="font1c textdecoration" href="#works">Portfolio</a>
+                    </li>
+    
+                    <li class="menu_option list_none ">
+                        <a class="font1c textdecoration" href="#about">About</a>
+                    </li>
+    
+                    <li class="menu_option list_none">
+                        <a class="font1c textdecoration" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </nav>
+    
+        </article>
+    
+    </section>
+    
+        <!-- LOADING CARDS DYNAMICALLY -->
+    
+        <section id="works" class="works_section">       
+    
+        </section>
+    
+        <!-- END OF LOADING CARDS DYNAMICALLY -->
+
+        
     <section>
     <div class="works">
         <h2>My recent <br> Works</h2>
@@ -260,5 +297,9 @@
     <h2 class="mail">myemailhere@email.com</h2>
     </div>
 </footer>
+
+
+
+<script src="script.js"></script>
 </body>
 </html>
