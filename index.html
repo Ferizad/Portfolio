@@ -16,12 +16,22 @@
         <nav class="hamburger">
                 <a class="logo" href="#">Welcome</a>
                 <ul class="link-desktop">
-                    <li class="links-style"><a href="#">Portoflio</a></li>
-                    <li class="links-style"><a href="#">About</a></li>
-                    <li class="links-style"><a href="#">Contact</a></li>
+                    <li class="links-style"><a href="#works">Portoflio</a></li>
+                    <li class="links-style"><a href="#about">About</a></li>
+                    <li class="links-style"><a href="#contact">Contact</a></li>
                 </ul>
-                <img class="hamburger-img" src="media\Union.svg" alt="hamburger">
-            </nav>
+                <button class="hamburger-img">
+                    <img  src="media\Union.svg" class="open" alt="hamburger">
+                    <img class="close" src="./media/closemenu.png" alt="">
+                </button>
+        </nav>
+        <nav class="hamburger-desktop">         
+                <ul>
+                    <a class="links-style"href="#">Portoflio</a>
+                    <a class="links-style" href="#">About</a>
+                    <a class="links-style" href="#">Contact</a>
+                </ul>
+        </nav>
     </header>
 
     <section class="intro">
@@ -50,8 +60,8 @@
         </div>
     </section>
 
-    <section>
-    <div class="works">
+    <section id="works">
+    <div class="works" >
         <h2>My recent <br> Works</h2>
         <img src="media\Indicator.png" alt="green-line">
     </div>
@@ -147,7 +157,7 @@
     </div>
     </section>
 
-    <section>
+    <section id="about">
     <div class="about1">
         <img class="illustration" src="media\illustration 1- about me-mobile.svg" alt="illustration">
         <img class="illustration2" src="media\illustration- about me- mobile.svg" alt="illustration">
@@ -208,7 +218,7 @@
 
 </section>
 
-<section class="contact-form">
+<section class="contact-form" id="contact">
 
     <img class="illustration3" src="media\illustration-contact-form.svg" alt="illustration">
     
@@ -260,5 +270,9 @@
     <h2 class="mail">myemailhere@email.com</h2>
     </div>
 </footer>
+
+
+
+<script src="script.js"></script>
 </body>
 </html>
