@@ -38,7 +38,8 @@
 
 ## 🛠 Built With <a name="built-with">
 -HTML
--CSS</a>
+-CSS
+-Javascript</a>
 
 ### Tech Stack <a name="tech-stack"></a>
 
@@ -139,6 +140,9 @@ GitHub pages
 - Twitter: [@FerizadK](https://twitter.com/FerizadK)
 - LinkedIn: [Ferizad Kanafina](https://www.linkedin.com/in/ferizad-kanafina-b41061253/)
 
+👤 **Yacoubou**
+
+- GitHub: [yacoubou-seidou](https://github.com/yacoubou-seidou)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
