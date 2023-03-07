@@ -1,32 +1,3 @@
-// const hamburger = document.querySelector('.hamburger-img');
-// const closeHamburgerBtn = document.querySelector('.close_hamburger');
-// const modalMenuContainer = document.querySelector('.modal_menu_container');
-// const menuOption = document.querySelectorAll('.menu_option');
-// const worksSection = document.querySelector('.works_section');
-
-// const toggleMobileMenu = (e) => {
-//     e.preventDefault();
-//     modalMenuContainer.classList.toggle('hide1');
-//   };
-
-//   hamburger.addEventListener('click', toggleMobileMenu);
-//   closeHamburgerBtn.addEventListener('click', toggleMobileMenu);
-
-//   menuOption.forEach((e) => {
-//     e.onclick = () => {
-//       modalMenuContainer.classList.toggle('hide1');
-//     };
-//   });
-
-//   let displayCard = '';
-//   for (let i = 0; i < cardsData.length; i += 1) {
-//     displayCard +=`
-
-//     `
-
-// worksSection.innerHTML = '';
-// worksSection.innerHTML = displayCard;
-
 const menu = document.querySelector('.link-desktop');
 const menuItems = document.querySelectorAll('.links-style');
 const hamburger = document.querySelector('.hamburger-img');
