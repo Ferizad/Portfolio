@@ -31,8 +31,55 @@ const cardsData = [
     name: 'Multi-Post Stories',
     image: 'media/placholder.jpg',
     technologies: [' CSS ', 'JavaScript', 'HTML'],
+    description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea',
     Source: 'https://github.com/Ferizad/Portfolio',
     liveLink: 'https://github.com/Ferizad/Portfolio',
+
+  },
+  {
+    name: 'Multi-Post Stories',
+    image: 'media/placholder.jpg',
+    technologies: [' CSS ', 'JavaScript', 'HTML'],
+    description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea',
+    Source: 'https://github.com/Ferizad/Portfolio',
+    liveLink: 'https://github.com/Ferizad/Portfolio',
+
+  },
+  {
+    name: 'Multi-Post Stories',
+    image: 'media/placholder.jpg',
+    technologies: [' CSS ', 'JavaScript', 'HTML'],
+    description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea',
+    Source: 'https://github.com/Ferizad/Portfolio',
+    liveLink: 'https://github.com/Ferizad/Portfolio',
+
+  },
+  {
+    name: 'Multi-Post Stories',
+    image: 'media/placholder.jpg',
+    technologies: [' CSS ', 'JavaScript', 'HTML'],
+    description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea',
+    Source: 'https://github.com/Ferizad/Portfolio',
+    liveLink: 'https://github.com/Ferizad/Portfolio',
+
+  },
+  {
+    name: 'Multi-Post Stories',
+    image: 'media/placholder.jpg',
+    technologies: [' CSS ', 'JavaScript', 'HTML'],
+    description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea',
+    Source: 'https://github.com/Ferizad/Portfolio',
+    liveLink: 'https://github.com/Ferizad/Portfolio',
+
+  },
+  {
+    name: 'Multi-Post Stories',
+    image: 'media/placholder.jpg',
+    technologies: [' CSS ', 'JavaScript', 'HTML'],
+    description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea',
+    Source: 'https://github.com/Ferizad/Portfolio',
+    liveLink: 'https://github.com/Ferizad/Portfolio',
+
   },
 ];
 
@@ -42,13 +89,13 @@ function display() {
     displayCard += `
 
               <div class="card">
-                <img class="card-media" src="${cardsData[0].image}" alt="placeholder">
-                <div class="sub-card"> <h2>${cardsData[0].name} <br> Gain+Glory</h2>
+                <img class="card-media" src="${cardsData[i].image}" alt="placeholder">
+                <div class="sub-card"> <h2>${cardsData[i].name} <br> Gain+Glory</h2>
                     <div class="categories">
                         <ul>
-                        <li>${cardsData[0].technologies[0]}</li>
-                        <li>${cardsData[0].technologies[1]}</li>
-                        <li>${cardsData[0].technologies[2]}</li>
+                        <li>${cardsData[i].technologies[0]}</li>
+                        <li>${cardsData[i].technologies[1]}</li>
+                        <li>${cardsData[i].technologies[2]}</li>
                         </ul>
                     </div>
                     <button class="see-btn seepopup">See project</button>
@@ -66,19 +113,19 @@ const showPopupBtn = document.querySelectorAll('.seepopup');
 const popUpContainer = document.createElement('section');
 popUpContainer.className = 'popup_section';
 popUpContainer.classList.add('bg_color6');
-showPopupBtn.forEach((e) => {
+showPopupBtn.forEach((e, i) => {
   e.addEventListener('click', () => {
     const popupEle = `
     <article class="popup_article">
 
         <div class="popup_articlediv show1">
 
-        <button type="button" class="close_popup"><img src="media/closemenu.png" alt=""></button>
+        
         <button type="button" class="close_popup2"><img src="media/closemenu.png" alt=""></button>
     
         <header class="popup_flex1">
         <img class="bg-popup" src="media/Snapshoot Portfolio.png" alt="">
-
+        <button type="button" class="close_popup"><img src="media/closemenu.png" alt=""></button>
         
         
         </header>
@@ -89,21 +136,20 @@ showPopupBtn.forEach((e) => {
            <div class="mod-div-1">
            <h4> Keeping track of hundreds of <br>components</h2>
            <ul>
-           <li><a class="textdecoration font4" href="#">${cardsData[0].technologies[0]}</a></li>
-           <li><a class="textdecoration font4" href="#">${cardsData[0].technologies[1]}</a></li>
-           <li><a class="textdecoration font4" href="#">${cardsData[0].technologies[2]}</a></li>
+           <li><a class="textdecoration font4" href="#">${cardsData[i].technologies[0]}</a></li>
+           <li><a class="textdecoration font4" href="#">${cardsData[i].technologies[1]}</a></li>
+           <li><a class="textdecoration font4" href="#">${cardsData[i].technologies[2]}</a></li>
            </ul>
            </div>
 
            <div class="mod-div-2">
-            <button  class="footer_btn textdecoration" id="see-projects-btn" type="submit"><a href="${cardsData[0].liveLink}"><span>See Live</span><img src="media/Icon.png" alt="see-live">
+            <button  class="footer_btn textdecoration" id="see-projects-btn" type="submit"><a href="${cardsData[i].liveLink}"><span>See Live</span><img src="media/Icon.png" alt="see-live">
             </a></button>
-            <button class="footer_btn textdecoration" id="see-projects-btn" type="submit"><a href="${cardsData[0].Source}"><span>See Source</span><img src="media/Vector.png" alt="see-source">
+            <button class="footer_btn textdecoration" id="see-projects-btn" type="submit"><a href="${cardsData[i].Source}"><span>See Source</span><img src="media/Vector.png" alt="see-source">
             </a></button>
             </div>
 
-            <div class="mod-div-3"><p class="details">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea</p>
-            </div>
+            <div class="mod-div-3"><p class="details">${cardsData[i].description}</p></div>
 
           </div>
         
