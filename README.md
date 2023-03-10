@@ -60,6 +60,8 @@
   > A linter is a tool that analyzes your source code to flag programming errors, bugs, stylistic errors, and suspicious constructs
 - **[.gitignore]**
   > Specifies intentionally untracked files to ignore
+- **[Pop_up_modal]**
+  > Show project details in a modal
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
