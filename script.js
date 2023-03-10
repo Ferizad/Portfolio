@@ -119,7 +119,7 @@ const showPopupBtn = document.querySelectorAll('.seepopup');
 const popUpContainer = document.createElement('section');
 popUpContainer.className = 'popup_section';
 popUpContainer.classList.add('bg_color6');
-showPopupBtn.forEach((e, i) => {
+showPopupBtn.forEach((e) => {
   e.addEventListener('click', () => {
     const popupEle = `
     <article class="popup_article">
@@ -220,4 +220,4 @@ const validate = () => {
   });
 };
 
-button.addEventListener('click', validate());
+button.addEventListener('click', validate);
