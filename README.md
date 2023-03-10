@@ -62,6 +62,9 @@
   > Specifies intentionally untracked files to ignore
 - **[Pop_up_modal]**
   > Show project details in a modal
+- **[Form_validation]**
+  > Validate form before submission
+
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
